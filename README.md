@@ -6,7 +6,8 @@ INSTRUCTIONS TO RUN PROGRAM:
 
 (If Cloning repo and running)
 
-Select Run -\&gt; Edit configuration -\&gt; provide the input file as shown below -\&gt; okay -\&gt; click run button (green play kind of icon)
+Select Run, Edit configuration, provide the input file as shown below, okay, click run button (green play kind of icon)
+
 3. Failed orders are written to a newly generated file failedOrders\_INPUT FILE NAME
 4. Upon successful completion, the card charged data is written to newly generated cardCharged\_INPUT FILE NAME
 5. The output is visible in the terminal as well.
