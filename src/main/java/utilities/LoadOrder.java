@@ -43,7 +43,7 @@ public class LoadOrder {
                     String category = itemCategory.getCategory(itemName);
                     int quantity = Integer.parseInt(itemSplit[1].trim());
                     String card = null;
-                    System.out.println("length" +itemSplit.length);
+                    //System.out.println("length" +itemSplit.length);
                     if(itemSplit.length == 3) {
                        card = itemSplit[2].trim();
                     }
@@ -52,7 +52,7 @@ public class LoadOrder {
                     if (successOrder) {
                         if(card != null){
                             cardList.getCard().add(card);
-                           System.out.println("not null ============"+cardList.getCard());
+                           //System.out.println("not null ============"+cardList.getCard());
                         }
                         else{
                             Set<String> card1= cardList.getCard();

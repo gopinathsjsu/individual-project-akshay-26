@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class MainClass {
+public class Billing {
     private static final String configFilename = "categoryConfig.json";
     private static final String inventoryFilename = "Dataset - Sheet1.csv";
     private static final String outputFailedFileName = "failedOrders";
@@ -44,7 +44,7 @@ public class MainClass {
 //        ItemList itemList1 = Commons.loadItems(inventoryFilename, categoryLimit1.getItemCategory());
 
         CardList readCard = LoadCard.loadCard(cardDetails);
-        System.out.println("get card..." + readCard.getCard());
+        //System.out.println("get card..." + readCard.getCard());
 
         System.out.println("Processing Order...");
         System.out.println("Reading File:" + orderFilename);
