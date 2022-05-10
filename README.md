@@ -54,11 +54,11 @@ Table 1: Items
 - Chain of responsibility Is a behavioral pattern that lets you pass requests along a chain of handlers
 - It relies on transforming particular behavior into stand alone objects called handlers, in our case the functionality to process orders with a chain of handlers (for example, reading the input file, mapping each category with item list, check if order quantity is exceeding the individual item limit, followed by checking if it exceeds category limit, then based on this generate order placement - success or failure output)
 
-1. Iterator Pattern
+2. Iterator Pattern
 - **Iterator**  is a behavioral design pattern that lets you traverse elements of a collection without exposing its underlying representation
 - For the functionality to take item for each category and map it with item list
 
-1. Singleton Pattern
+3. Singleton Pattern
 - **Singleton**  is a creational design pattern that lets you ensure that a class has only one instance, while providing a global access point to this instance.
 - For the functionality of reading input file from command line
 
