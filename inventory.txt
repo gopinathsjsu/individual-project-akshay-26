@@ -1,0 +1,14 @@
+#item,quantity,price
+Clothes,100,20
+Soap,200,5
+Shampoo,200,10
+Milk,100,5
+Perfume,50,50
+Chocolates,300,3
+Handbag,75,150
+Wallet,100,100
+Bedsheet,150,75
+Footwear,200,25
+HomeDecorPiece,100,40
+Pen,400,3
+Pencil,400,3
