@@ -96,4 +96,4 @@ The order quantity for **Bedsheet** is more than the limit, so order placement f
 
 Class Diagram for Individual Project.
 
-![img_9.png](img_9.png)
+![MainClass](https://user-images.githubusercontent.com/23641887/167558494-0c413fa8-8296-431e-a215-05fedba84f81.png)
